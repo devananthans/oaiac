@@ -73,7 +73,7 @@ if query:
             # Display sources, if available
             sources = result.get("sources", "")
             if sources:
-                st.subheader("Sources:")
+                st.subheader("Sources List:")
                 sources_list = sources.split("\n")
                 for source in sources_list:
                     st.write(source)
